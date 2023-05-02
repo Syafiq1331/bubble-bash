@@ -12,7 +12,7 @@ const OurPortfolio: React.FC<OurPortfolioProps> = ({ }) => {
       <div className='container mx-auto'>
         <p className='text-[18px] text-[#2A2C3D]/70'>Client Reviews</p>
         <h3 className='text-[36px] font-[600]'>What Our Happy Client Say About Us</h3>
-        <div className='grid gap-x-20 grid-cols-3 gap-y-12 px-12 my-14'>
+        <div className='grid gap-x-20 lg:grid-cols-3 gap-y-12 px-12 my-14'>
           <Card
             title='Website My Hospital'
             desc='Very nice to work with Bubble Bash, a reliable and responsive team is very helpful'
