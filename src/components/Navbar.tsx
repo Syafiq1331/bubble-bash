@@ -9,7 +9,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <>
-      <nav className='text-white flex items-center justify-between container px-6 lg:px-0 mx-auto py-10'>
+      <nav className='text-white flex items-center justify-between container px-6 mx-auto py-10'>
         <div className='flex items-center gap-x-1'>
           <img src={logo} alt="" />
           <p className='font-semibold text-[20px]'>Bubble Bash</p>
@@ -53,11 +53,11 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
         </div>
       </nav>
       <div className='text-white'>
-        <h1 className='text-[64px] mt-12 font-bold text-center'>Create Amazing Digital Product <br />
+        <h1 className='xl:text-[64px] lg:text-[40px] md:text-[36px] xl:mt-12 mt-10 font-bold text-center'>Create Amazing Digital Product <br />
           For Your Business</h1>
-        <p className='text-[18px] leading-relaxed my-12 font-[400] text-center'>We are a professional digital agency that has been established since 2016, we present a variety of
+        <p className='lg:text-[18px] md:text-[14px] leading-relaxed xl:my-12 md:my-4 font-[400] text-center'>We are a professional digital agency that has been established since 2016, we present a variety of
           <br /> digital services that can help you solve problems in your business</p>
-        <div className='bg-white flex gap-x-2 items-center mx-auto py-[23px] px-[32px] w-[211px] text-black'>
+        <div className='bg-white flex gap-x-2 items-center mx-auto xl:py-[23px] md:py-[19px] px-[32px] w-[211px] text-black'>
           <p className='font-[700] text-[20px]'>Get Started</p>
           <img src={rightRow} alt="" />
         </div>
