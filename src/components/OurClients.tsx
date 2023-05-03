@@ -9,7 +9,7 @@ interface OurPortfolioProps { }
 const OurPortfolio: React.FC<OurPortfolioProps> = ({ }) => {
   return (
     <section className='py-[60px]'>
-      <div className='container mx-auto md:px-6'>
+      <div className='container mx-auto m:px-6 px-4'>
         <p className='text-[18px] text-[#2A2C3D]/70'>Client Reviews</p>
         <h3 className='text-[36px] font-[600]'>What Our Happy Client Say About Us</h3>
         <div className='grid xl:gap-x-20 gap-x-4 lg:grid-cols-3 gap-y-6 xl:gap-y-12 xl:px-12 my-14'>

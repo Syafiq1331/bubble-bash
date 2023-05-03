@@ -7,7 +7,7 @@ interface OurServicesProps { }
 const OurServices: React.FC<OurServicesProps> = ({ }) => {
   return (
     <section className=' bg-[#F9F9F9] py-[60px]'>
-      <div className='container mx-auto md:px-6'>
+      <div className='container mx-auto md:px-6 px-4'>
         <p className='text-[18px] text-[#2A2C3D]/70'>Our Services</p>
         <h3 className='text-[36px] font-[600]'>We Provide What You Need</h3>
 
